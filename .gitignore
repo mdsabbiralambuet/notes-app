@@ -1,0 +1,50 @@
+# ============================================
+# Android / Gradle / Android Studio .gitignore
+# ============================================
+
+# Build outputs (regenerated on every build)
+build/
+app/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+bin/
+gen/
+out/
+release/
+
+# Gradle cache
+.gradle/
+
+# Android Studio / IntelliJ IDEA settings (user-specific)
+.idea/
+*.iml
+*.iws
+*.ipr
+captures/
+.navigation/
+
+# Local config — contains YOUR sdk path & username, never commit
+local.properties
+
+# Signing keys — NEVER COMMIT
+*.jks
+*.keystore
+keystore.properties
+
+# Native build artifacts
+.externalNativeBuild/
+.cxx/
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor temp files
+*.swp
+*~
